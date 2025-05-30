@@ -1,0 +1,7 @@
+{
+  "GameStudio.Common": "GameStudio.Common.yml",
+  "GameStudio.Common.TestA": "GameStudio.Common.TestA.yml",
+  "GameStudio.Test": "GameStudio.Test.yml",
+  "GameStudio.Test.TestB": "GameStudio.Test.TestB.yml",
+  "GameStudio.Test.TestScript": "GameStudio.Test.TestScript.yml"
+}

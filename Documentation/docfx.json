@@ -1,0 +1,46 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "src": "../Assets",
+          "files": [
+            "**.cs"
+          ]
+        }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": [
+          "toc.yml",
+          "index.md"
+        ]
+      },
+      {
+        "src": "api",
+        "files": [
+          "*.yml"
+        ],
+        "dest": "api"
+      },
+      {
+        "src": "docs",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "docs"
+      }
+    ],
+    "globalMetadata": {
+      "_appName": "Pukui",
+      "_appTitle": "Pukui",
+      "_enableSearch": true
+    },
+    "dest": "_site"
+  }
+}

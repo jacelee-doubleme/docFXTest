@@ -37,7 +37,7 @@ jobs:
       run: |
         # DocFX 프로젝트가 있는 경로로 이동 (필요시 수정)
         cd Documentation
-        docfx docfx.json --build
+        docfx docfx.json
         
     - name: Setup Pages
       uses: actions/configure-pages@v4

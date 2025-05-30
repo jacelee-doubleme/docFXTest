@@ -11,7 +11,7 @@ jobs:
     runs-on: windows-latest # Required by DocFX
     steps:
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         # with:
         #   submodules: true
 
@@ -43,7 +43,7 @@ jobs:
 
       # Download the generated documentation
       - name: Download site artifact
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v1
         with:
           name: _site
 

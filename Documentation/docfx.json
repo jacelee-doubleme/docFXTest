@@ -6,7 +6,13 @@
           "src": "../Assets",
           "files": [
             "**.cs"
-          ]
+          ],
+          "exclude": [
+
+          ],
+		  "globalNamespaceId": "Global",
+            "filter": "filterConfig.yml",
+            "dest": "api"
         }
       ],
       "dest": "api"
@@ -28,17 +34,25 @@
         "dest": "api"
       },
       {
-        "src": "docs",
+        "src": "manual",
         "files": [
           "toc.yml",
           "*.md"
         ],
-        "dest": "docs"
+        "dest": "manual"
+      }
+    ],
+	"resource": [
+      {
+        "files": [
+          "images/**"
+        ]
       }
     ],
     "globalMetadata": {
-      "_appName": "Pukui",
-      "_appTitle": "Pukui",
+      "_appName": "DocFXTest",
+      "_appTitle": "DocFXTest",
+	  "_appLogoPath": "images/logo.png",
       "_enableSearch": true
     },
     "dest": "_site"

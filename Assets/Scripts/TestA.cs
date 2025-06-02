@@ -6,7 +6,7 @@ namespace GameStudio.Common
 {
 
     /// <summary>
-    /// 테스트 클래스입니다.
+    /// 테스트 클래스입니다. ㅋㅋ
     /// </summary>
     public class TestA : MonoBehaviour
     {

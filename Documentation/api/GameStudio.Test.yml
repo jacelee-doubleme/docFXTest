@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: GameStudio.Test
+  commentId: N:GameStudio.Test
+  id: GameStudio.Test
+  children:
+  - GameStudio.Test.TestB
+  - GameStudio.Test.TestScript
+  langs:
+  - csharp
+  - vb
+  name: GameStudio.Test
+  nameWithType: GameStudio.Test
+  fullName: GameStudio.Test
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: GameStudio.Test.TestB
+  commentId: T:GameStudio.Test.TestB
+  name: TestB
+  nameWithType: TestB
+  fullName: GameStudio.Test.TestB
+- uid: GameStudio.Test.TestScript
+  commentId: T:GameStudio.Test.TestScript
+  name: TestScript
+  nameWithType: TestScript
+  fullName: GameStudio.Test.TestScript

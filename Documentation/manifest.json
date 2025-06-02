@@ -1,0 +1,200 @@
+{
+  "homepages": [],
+  "source_base_path": "C:/Git/DocFXTest/Documentation",
+  "xrefmap": "xrefmap.yml",
+  "files": [
+    {
+      "type": "Resource",
+      "output": {
+        "resource": {
+          "relative_path": "index.json"
+        }
+      },
+      "is_incremental": false
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameStudio.Common.TestA.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameStudio.Common.TestA.html",
+          "hash": "DgU/UuQt+A0kxITQKtUK6tZDKGmzn8ldvg3ssBS0MhU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameStudio.Common.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameStudio.Common.html",
+          "hash": "JC6QyCHzsHx5LxQYHQdOHgZq+2v2yCF11CfKCr6uN9c="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameStudio.Test.TestB.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameStudio.Test.TestB.html",
+          "hash": "Bfn6fojTIrTCvxTIXJcitt8RHtfNXOGDPvAoavKvVfU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameStudio.Test.TestScript.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameStudio.Test.TestScript.html",
+          "hash": "PRpdkZcaK86ZilQANKKi0GBVME6DJmxp293ndT7Sc0I="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/GameStudio.Test.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/GameStudio.Test.html",
+          "hash": "juXbFMf8ExcW9vjBQqF9DiAu217Kbx85xEbm+1h5Oj4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "api/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/toc.html",
+          "hash": "EWxZPtyYixRPnZ4em/+HWRNeSixz3zpMDaGhGiz4TtU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/getting-started.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/getting-started.html",
+          "hash": "TIHtEgLgomNugztykNvAb9DDht/oNGhi2hKXAo9FUnc="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "rawTitle": "<h1 id=\"getting-started\" sourcefile=\"docs/getting-started.md\" sourcestartlinenumber=\"1\">Getting Started</h1>"
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "docs/introduction.md",
+      "output": {
+        ".html": {
+          "relative_path": "docs/introduction.html",
+          "hash": "H60sptHinUrRjYa56p0TGRdiEd623oRCXTdtOPUoq64="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "rawTitle": "<h1 id=\"introduction\" sourcefile=\"docs/introduction.md\" sourcestartlinenumber=\"1\">Introduction</h1>"
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "docs/toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "docs/toc.html",
+          "hash": "dEg4vNJttsFNrPQ2PBDQzg4Rf1UMrrc7EXWNlSSB4W0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "index.md",
+      "output": {
+        ".html": {
+          "relative_path": "index.html",
+          "hash": "VOu9DG8IkYgGO2Eb8HaDTTpJnAuc7N+MEH5YVLmB41I="
+        }
+      },
+      "is_incremental": false,
+      "version": "",
+      "rawTitle": "<h1 id=\"this-is-the-homepage\" sourcefile=\"index.md\" sourcestartlinenumber=\"5\">This is the <strong sourcefile=\"index.md\" sourcestartlinenumber=\"5\">HOMEPAGE</strong>.</h1>"
+    },
+    {
+      "type": "Toc",
+      "source_relative_path": "toc.yml",
+      "output": {
+        ".html": {
+          "relative_path": "toc.html",
+          "hash": "XTi9AWxzrMUVjpGHC2fQ0OghY1zOwVhd857gIgMyLhg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    }
+  ],
+  "incremental_info": [
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot build incrementally because config changed.",
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0,
+        "full_build_reason_code": "ConfigChanged"
+      },
+      "processors": {
+        "ConceptualDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 3,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": false,
+          "incrementalPhase": "build",
+          "total_file_count": 5,
+          "skipped_file_count": 0
+        },
+        "TocDocumentProcessor": {
+          "can_incremental": false,
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        }
+      }
+    },
+    {
+      "status": {
+        "can_incremental": false,
+        "details": "Cannot support incremental post processing, the reason is: should not trace intermediate info.",
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
+      },
+      "processors": {}
+    }
+  ],
+  "version_info": {},
+  "groups": [
+    {
+      "xrefmap": "xrefmap.yml"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+### YamlMime:ManagedReference
+items:
+- uid: GameStudio.Test.TestScript
+  commentId: T:GameStudio.Test.TestScript
+  id: TestScript
+  parent: GameStudio.Test
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TestScript
+  nameWithType: TestScript
+  fullName: GameStudio.Test.TestScript
+  type: Class
+  source:
+    id: TestScript
+    path: ''
+    startLine: 54
+  assemblies:
+  - cs.temp.dll
+  namespace: GameStudio.Test
+  syntax:
+    content: 'public class TestScript : MonoBehaviour'
+    content.vb: Public Class TestScript Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: GameStudio.Test
+  commentId: N:GameStudio.Test
+  name: GameStudio.Test
+  nameWithType: GameStudio.Test
+  fullName: GameStudio.Test
+  spec.csharp:
+  - uid: GameStudio
+    name: GameStudio
+  - name: .
+  - uid: GameStudio.Test
+    name: Test
+  spec.vb:
+  - uid: GameStudio
+    name: GameStudio
+  - name: .
+  - uid: GameStudio.Test
+    name: Test

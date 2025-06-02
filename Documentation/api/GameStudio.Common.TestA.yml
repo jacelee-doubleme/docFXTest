@@ -1,0 +1,46 @@
+### YamlMime:ManagedReference
+items:
+- uid: GameStudio.Common.TestA
+  commentId: T:GameStudio.Common.TestA
+  id: TestA
+  parent: GameStudio.Common
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: TestA
+  nameWithType: TestA
+  fullName: GameStudio.Common.TestA
+  type: Class
+  source:
+    id: TestA
+    path: ''
+    startLine: 10
+  assemblies:
+  - cs.temp.dll
+  namespace: GameStudio.Common
+  summary: "\n테스트 클래스입니다. ㅋㅋ\n"
+  example: []
+  syntax:
+    content: 'public class TestA : MonoBehaviour'
+    content.vb: Public Class TestA Inherits MonoBehaviour
+  inheritance:
+  - System.Object
+references:
+- uid: GameStudio.Common
+  commentId: N:GameStudio.Common
+  name: GameStudio.Common
+  nameWithType: GameStudio.Common
+  fullName: GameStudio.Common
+  spec.csharp:
+  - uid: GameStudio
+    name: GameStudio
+  - name: .
+  - uid: GameStudio.Common
+    name: Common
+  spec.vb:
+  - uid: GameStudio
+    name: GameStudio
+  - name: .
+  - uid: GameStudio.Common
+    name: Common

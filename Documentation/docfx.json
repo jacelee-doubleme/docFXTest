@@ -1,5 +1,4 @@
 {
-  "$schema": "https://raw.githubusercontent.com/dotnet/docfx/main/schemas/docfx.schema.json",
   "metadata": [
     {
       "src": [
@@ -17,30 +16,31 @@
     "content": [
       {
         "files": [
-          "**/*.{md,yml}"
-        ],
-        "exclude": [
-          "_site/**"
+          "toc.yml",
+          "index.md"
         ]
-      }
-    ],
-    "resource": [
+      },
       {
+        "src": "api",
         "files": [
-          "images/**"
-        ]
+          "*.yml"
+        ],
+        "dest": "api"
+      },
+      {
+        "src": "docs",
+        "files": [
+          "toc.yml",
+          "*.md"
+        ],
+        "dest": "docs"
       }
-    ],
-    "output": "_site",
-    "template": [
-      "default",
-      "modern"
     ],
     "globalMetadata": {
-      "_appName": "docFXTest",
-      "_appTitle": "docFXTest",
-      "_enableSearch": true,
-      "pdf": true
-    }
+      "_appName": "Pukui",
+      "_appTitle": "Pukui",
+      "_enableSearch": true
+    },
+    "dest": "_site"
   }
 }

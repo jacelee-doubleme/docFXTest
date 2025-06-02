@@ -1,0 +1,13 @@
+### YamlMime:TableOfContent
+- uid: GameStudio.Common
+  name: GameStudio.Common
+  items:
+  - uid: GameStudio.Common.TestA
+    name: TestA
+- uid: GameStudio.Test
+  name: GameStudio.Test
+  items:
+  - uid: GameStudio.Test.TestB
+    name: TestB
+  - uid: GameStudio.Test.TestScript
+    name: TestScript

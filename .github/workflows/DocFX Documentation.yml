@@ -44,7 +44,6 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: './Documentation/_site'
-      shell: bash  # Git Bash 사용
         
   deploy:
     environment:

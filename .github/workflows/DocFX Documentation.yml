@@ -26,8 +26,7 @@ jobs:
         dotnet-version: '8.0.x'
         
     - name: Set PowerShell Execution Policy
-      run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-      shell: powershell
+      run: powershell.exe -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
         
     - name: Setup DocFX
       run: dotnet tool install -g docfx --version 2.61.0

@@ -1,20 +1,21 @@
-name: DocFX Documentation
-
+name: DocFX Documentation (Self-Hosted)
 on:
   workflow_dispatch:
-
 permissions:
   contents: read
   pages: write
   id-token: write
-
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
+defaults:
+  run:
+    shell: cmd  # 모든 명령을 CMD로 실행
+
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: self-hosted  # GitHub hosted runner 대신 self-hosted 사용
     
     steps:
     - name: Checkout
@@ -27,7 +28,7 @@ jobs:
         
     - name: Set PowerShell Execution Policy
       run: powershell.exe -ExecutionPolicy Bypass -Command "Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser -Force"
-        
+      
     - name: Setup DocFX
       run: dotnet tool install -g docfx --version 2.61.0
       
@@ -43,14 +44,15 @@ jobs:
       uses: actions/upload-pages-artifact@v3
       with:
         path: './Documentation/_site'
-
+      shell: bash  # Git Bash 사용
+        
   deploy:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
+    runs-on: self-hosted  # GitHub hosted runner 대신 self-hosted 사용
     needs: build
-    if: github.ref == 'refs/heads/main'
+    if: github.ref == 'refs/heads/develop'
     
     steps:
     - name: Deploy to GitHub Pages
